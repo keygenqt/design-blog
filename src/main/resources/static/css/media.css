@@ -14,8 +14,13 @@
  * limitations under the License.
  */
 
-@media (max-width: 1000px) {
-  html {
-    background: white;
-  }
+@media (max-width: 991px) {
+    .navbar-collapse .navbar-nav .nav-link {
+        display: none !important;
+    }
+
+    .navbar-collapse .navbar-nav .dropdown-menu {
+        display: block !important;
+        margin-bottom: 7px;
+    }
 }

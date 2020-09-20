@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.*
 class IndexController {
     @GetMapping("/")
     fun main(model: Model): String {
-        model.addAttribute("serverName", "TEST")
-        return "index"
+        model.addAttribute("appName", "Unit Theme 1")
+        return "layouts/index"
     }
 }

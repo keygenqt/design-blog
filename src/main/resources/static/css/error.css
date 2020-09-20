@@ -40,34 +40,45 @@ a {
     color: #2cb6e9;
 }
 
-.container-table {
+.center {
     margin: auto;
+    text-align: center;
     display: table;
     height: 100%;
-    width: 100%;
-    background: #e3e3e3;
 }
 
-.container-table .container-row {
-    display: table-row;
-}
-
-.container-table .container-cell {
+.center .cell {
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
 }
 
-.container-table .container-cell.cell-body {
-    height: 100%;
+body {
+    background: #191919;
 }
 
-.container-table .container-cell.cell-menu {
-    height: 100px;
-    background: #008cfa;
+.error .oops {
+    color: white;
+    font-size: 20px;
 }
 
-.container-table .container-cell.cell-footer {
-    height: 140px;
-    background: #9f11a3;
+.error .code {
+    color: #5a595a;
+    font-size: 155px;
+    font-weight: bold;
+}
+
+.error .text {
+    color: #8c8998;
+    font-size: 30px;
+}
+
+.error .line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8c8998;
+}
+
+.error .info {
+    color: #5a595a;
+    margin-bottom: 30px;
 }

@@ -24,7 +24,8 @@ import org.springframework.context.annotation.*
 @SpringBootApplication
 @ComponentScan(
     basePackageClasses = [
-        IndexController::class
+        IndexController::class,
+        WebErrorController::class
     ]
 )
 class TemplatesApplication
