@@ -45,7 +45,7 @@ a {
     display: table;
     height: 100%;
     width: 100%;
-    background: #e3e3e3;
+    background: #ffffff;
 }
 
 .container-table .container-row {
@@ -62,12 +62,167 @@ a {
     height: 100%;
 }
 
-.container-table .container-cell.cell-menu {
-    height: 100px;
-    background: #008cfa;
+/*FOOTER*/
+.container-table .container-cell.cell-footer {
+    background: #222831;
 }
 
-.container-table .container-cell.cell-footer {
-    height: 140px;
-    background: #9f11a3;
+.footer {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1300px;
+    display: inline-block;
+    text-align: left;
 }
+
+.footer .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+
+.footer .title span {
+    color: #ffe51e;
+}
+
+/*info*/
+.footer .info {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    margin-left: -20px;
+}
+
+/*menu*/
+.footer .menu {
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 30px;
+}
+
+.footer .menu li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer .menu li a:hover {
+    color: #ffe51e;
+    transition: all 1s ease;
+}
+
+/*top news*/
+.footer .top-news {
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+.footer .top-news .news {
+    display: inline-block;
+}
+
+.footer .top-news .news ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .top-news .news ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .top-news .news ul li {
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .top-news .news ul li .image {
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer .top-news .news ul li .image {
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer .top-news .news ul li .data {
+    width: calc(100% - 100px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+.footer .top-news .news ul li .data .desc {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.footer .top-news .news ul li .data .date {
+    display: inline-block;
+    color: #808080;
+    font-size: 12px;
+}
+
+/*contact*/
+.footer .contact {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.footer .contact ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer .contact ul li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer .contact ul li .image {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 200px;
+    display: inline-block;
+}
+
+.footer .contact ul li .data {
+    display: inline-block;
+    color: #2cb6e9;
+    position: relative;
+    top: -15px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer .contact ul li .data:hover {
+    color: #ffe51e;
+    transition: all 1s ease;
+}
+
+/*FOOTER*/
