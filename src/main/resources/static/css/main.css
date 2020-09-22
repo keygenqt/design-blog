@@ -87,6 +87,7 @@ a {
     color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 0 50px;
 }
 .status-quote .autor {
     font-size: 17px;
@@ -286,7 +287,7 @@ a {
 
 /*info*/
 .footer .info {
-    width: 20%;
+    width: 30%;
     display: inline-block;
     vertical-align: top;
     padding: 0 20px;
@@ -301,9 +302,13 @@ a {
     padding: 0 30px;
 }
 
+.footer .menu ul {
+    padding-left: 23px;
+}
 .footer .menu li {
-    margin-bottom: 10px;
+    margin-bottom: 17px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .footer .menu li a:hover {
@@ -313,7 +318,7 @@ a {
 
 /*top news*/
 .footer .top-news {
-    width: 43%;
+    width: 53%;
     display: inline-block;
     vertical-align: top;
     padding: 0 20px;
@@ -345,18 +350,9 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 5px;
+    border-radius: 3px;
     display: inline-block;
-}
-
-.footer .top-news .news ul li .image {
-    height: 90px;
-    width: 90px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 5px;
-    display: inline-block;
+    box-shadow: 0 0px 6px 0 #ee382f, 0 0px 2px 0 #ee382f;
 }
 
 .footer .top-news .news ul li .data {
@@ -375,50 +371,6 @@ a {
     display: inline-block;
     color: #808080;
     font-size: 12px;
-}
-
-/*contact*/
-.footer .contact {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 20px;
-}
-
-.footer .contact ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.footer .contact ul li {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.footer .contact ul li .image {
-    height: 40px;
-    width: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 200px;
-    display: inline-block;
-}
-
-.footer .contact ul li .data {
-    display: inline-block;
-    color: #EE382F;
-    position: relative;
-    top: -15px;
-    margin: 0 10px;
-    font-size: 18px;
-}
-
-.footer .contact ul li .data:hover {
-    color: #ffe51e;
-    transition: all 1s ease;
 }
 
 /*FOOTER*/

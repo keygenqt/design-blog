@@ -14,13 +14,211 @@
  * limitations under the License.
  */
 
-@media (max-width: 991px) {
-    .navbar-collapse .navbar-nav .nav-link {
-        display: none !important;
+@media (max-width: 1380px) {
+    body .footer,
+    body .cell-menu .menu,
+    body .container .page {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-    .navbar-collapse .navbar-nav .dropdown-menu {
-        display: block !important;
-        margin-bottom: 7px;
+    .status-quote .text {
+        font-size: 26px;
+    }
+
+    .list-posts .list-item .data-block {
+        width: calc(100% - 500px);
+    }
+
+    .list-posts .list-item .image-block {
+        width: 500px;
+        height: 300px;
+    }
+
+    .list-posts .list-item .data-block .title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .status-quote {
+        padding: 50px 30px;
+    }
+
+    .status-quote img:first-child,
+    .status-quote img:last-child {
+        width: 50px;
+    }
+
+    .status-quote img:first-child {
+        top: -2px;
+    }
+
+    .status-quote img:last-child {
+        bottom: 44px;
+    }
+
+    .list-posts .list-item .data-block .title,
+    .banner .data-block .title {
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .list-posts .list-item .data-block .short-desc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .list-posts .list-item .data-block .cat,
+    .banner .data-block .cat {
+        font-size: 16px;
+    }
+
+    .list-posts .list-item .data-block {
+        width: calc(100% - 350px);
+    }
+
+    .list-posts .list-item .image-block {
+        width: 350px;
+        height: 200px;
+    }
+
+    .banner .image-block {
+        height: 500px;
+    }
+
+    .banner {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .pager-style {
+        margin-top: 40px;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .banner .data-block {
+        width: 500px;
+    }
+
+    .pager-style li {
+        font-size: 14px;
+    }
+
+    .pager-style li.active,
+    .pager-style li a {
+        width: 36px;
+        height: 36px;
+        padding-top: 6px;
+    }
+
+    .footer .menu {
+        display: none;
+    }
+
+    .footer .top-news {
+        width: 70%;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .list-posts .list-item .image-block {
+        width: 100%;
+        height: 300px;
+    }
+
+    .list-posts .list-item .data-block {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .status-quote {
+        padding: 30px;
+    }
+
+    .status-quote .autor {
+        font-size: 13px;
+    }
+
+    .status-quote img:first-child, .status-quote img:last-child {
+        width: 35px;
+    }
+
+    .banner .image-block {
+        height: 400px;
+    }
+
+    .footer .top-news {
+        display: none;
+    }
+
+    .footer .info {
+        width: 75%;
+    }
+
+    .footer .menu {
+        width: 25%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer .menu {
+        display: none;
+    }
+
+    .footer .info {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .status-quote .text {
+        font-size: 16px;
+    }
+    .status-quote img:first-child, .status-quote img:last-child {
+        width: 25px;
+    }
+    .status-quote .autor {
+        font-size: 10px;
+    }
+    .status-quote .text {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .status-quote img:first-child {
+        top: -18px;
+        left: -10px;
+    }
+    .status-quote img:last-child {
+        right: -10px;
+    }
+    .banner .data-block {
+        width: 100%;
+    }
+    .status-quote .text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    body .cell-menu .menu {
+        text-align: center;
+        padding: 30px;
+    }
+    body .cell-menu .menu .title {
+        float: none;
+        padding-bottom: 25px;
+    }
+    body .cell-menu .menu ul {
+        margin: 0;
+        padding: 0;
     }
 }
