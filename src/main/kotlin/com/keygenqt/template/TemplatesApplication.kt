@@ -19,6 +19,7 @@ package com.keygenqt.template
 import com.keygenqt.template.controllers.*
 import org.springframework.boot.*
 import org.springframework.boot.autoconfigure.*
+import org.springframework.boot.web.servlet.support.*
 import org.springframework.context.annotation.*
 
 @SpringBootApplication
@@ -28,7 +29,7 @@ import org.springframework.context.annotation.*
         WebErrorController::class
     ]
 )
-class TemplatesApplication
+class TemplatesApplication: SpringBootServletInitializer()
 
 fun main(args: Array<String>) {
     runApplication<TemplatesApplication>(*args)
