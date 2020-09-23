@@ -29,20 +29,20 @@
 
                 <div class="status-quote">
                     <div class="page" style="position: relative">
-                        <img src="/images/quote.png"/>
+                        <img th:src="@{/images/quote.png}"/>
                         <div class="text">
                             The Linux philosophy is 'Laugh in the face of danger'.
                             Oops. Wrong One. <span>'Do it yourself'</span>. Yes, that's it.
                         </div>
                         <div class="autor">Linus Torvalds</div>
-                        <img src="/images/quote.png"/>
+                        <img th:src="@{/images/quote.png}"/>
                     </div>
                 </div>
 
                 <div class="page">
 
                     <div class="banner">
-                        <div class="image-block" style="background-image: url('/images/7.jpg')"></div>
+                        <div class="image-block" th:style="'background-image:url(' + @{/images/7.jpg} + ');'"></div>
                         <div class="data-block">
                             <div class="cat">cute Category</div>
                             <div class="title">First title. Here could your title.</div>
@@ -52,7 +52,7 @@
 
                     <ul class="list-posts">
                         <li class="list-item">
-                            <div class="image-block" style="background-image: url('/images/2.jpg')"></div>
+                            <div class="image-block" th:style="'background-image:url(' + @{/images/2.jpg} + ');'"></div>
                             <div class="data-block">
                                 <div class="cat">Nice Category</div>
                                 <div class="title">This heading should be slightly longer than the first.</div>
@@ -63,7 +63,7 @@
                             </div>
                         </li>
                         <li class="list-item">
-                            <div class="image-block" style="background-image: url('/images/3.jpg')"></div>
+                            <div class="image-block" th:style="'background-image:url(' + @{/images/3.jpg} + ');'"></div>
                             <div class="data-block">
                                 <div class="cat">Best Category</div>
                                 <div class="title">Third title. Still no idea what will be written here. But its length must be greater than the first.</div>
@@ -74,7 +74,7 @@
                             </div>
                         </li>
                         <li class="list-item">
-                            <div class="image-block" style="background-image: url('/images/4.jpg')"></div>
+                            <div class="image-block" th:style="'background-image:url(' + @{/images/4.jpg} + ');'"></div>
                             <div class="data-block">
                                 <div class="cat">Cool Category</div>
                                 <div class="title">It's short title.</div>

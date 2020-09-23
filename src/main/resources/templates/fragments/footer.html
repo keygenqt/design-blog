@@ -31,7 +31,7 @@
             <div class="news">
                 <ul>
                     <li>
-                        <div style="background-image: url('/images/1.jpg')" class="image"></div>
+                        <div th:style="'background-image:url(' + @{/images/1.jpg} + ');'" class="image"></div>
                         <div class="data">
                             <div class="desc">
                                 This is the best news ever. If it wasn't for a template, you could read it. So wait for my blog to come out and you can do it.
@@ -40,7 +40,7 @@
                         </div>
                     </li>
                     <li>
-                        <div style="background-image: url('/images/6.jpg')" class="image"></div>
+                        <div th:style="'background-image:url(' + @{/images/6.jpg} + ');'" class="image"></div>
                         <div class="data">
                             <div class="desc">
                                 When I make an own blog, everyone will be able to do it as I am making the blog as simple as possible for people, not for backend developer.
