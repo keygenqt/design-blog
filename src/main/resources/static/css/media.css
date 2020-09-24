@@ -219,7 +219,7 @@
         text-align: center;
         padding: 30px;
     }
-    body .cell-menu .menu .title {
+    body .cell-menu .menu .title a {
         float: none;
         padding-bottom: 25px;
     }
