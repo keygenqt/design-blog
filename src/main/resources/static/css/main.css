@@ -153,6 +153,10 @@ body.black-theme .banner .data-block {
 }
 
 /*MENU*/
+.container-table .container-cell.cell-menu .body-menu {
+    height: 69px;
+    background: #222831;
+}
 .container-table .container-cell.cell-menu .block-menu {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
     background: linear-gradient(to right, #222831, #EE382F);
