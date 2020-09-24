@@ -14,65 +14,27 @@
 * limitations under the License.
 */-->
 <div xmlns:th="http://www.thymeleaf.org" class="container-cell cell-menu" th:fragment="menu">
-
-    <style>
-        .container-table .container-cell.cell-menu {
-            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
-            background: linear-gradient(to right, #222831, #EE382F);
-            text-align: center;
-        }
-        .cell-menu .menu {
-            width: 1300px;
-            display: inline-block;
-            text-align: right;
-        }
-
-        .cell-menu .menu .title {
-            font-size: 24px;
-            font-weight: bold;
-            color: white;
-            display: inline-block;
-            float: left;
-            padding: 18px;
-        }
-        .cell-menu .menu .title span {
-            color: #ffe51e;
-        }
-        .cell-menu .menu ul {
-            display: inline-block;
-        }
-        .cell-menu .menu ul li {
-            display: inline-block;
-        }
-        .cell-menu .menu ul li a {
-            color: white;
-            display: inline-block;
-            padding: 5px 14px;
-            font-size: 20px;
-        }
-        .cell-menu .menu ul li a:hover {
-            color: #ffe51e;
-            transition: all 1s ease;
-        }
-    </style>
-
-    <div class="menu">
-        <div class="title">
-            Vitaliy Zarub<span>in</span>.
+    <div class="body-menu">
+        <div class="block-menu">
+            <div class="menu">
+                <div class="title">
+                    Vitaliy Zarub<span>in</span>.
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Articles</a>
-            </li>
-            <li>
-                <a href="#">Team</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
     </div>
 </div>

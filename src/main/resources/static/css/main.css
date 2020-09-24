@@ -73,6 +73,129 @@ a {
     display: inline-block;
 }
 
+/*BLACK*/
+body.black-theme .container-table .container-cell.cell-body {
+    background: black;
+}
+
+body.black-theme .list-posts .list-item .data-block .cat {
+    color: #a9a9a9;
+}
+
+body.black-theme .list-posts .list-item .data-block .title {
+    color: #ffffff;
+}
+
+body.black-theme .list-posts .list-item .data-block .short-desc {
+    color: #b9b9b9;
+}
+
+body.black-theme .button-up, body.black-theme .button-theme {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2), 0 0 15px 0 rgba(255, 255, 255, 0.4)
+}
+body.black-theme .pager-style li.active {
+    color: white;
+}
+
+/*BUTTONS*/
+.button-up {
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    width: 40px;
+    height: 40px;
+    background: #222831;
+    border-radius: 50%;
+    z-index: 100;
+    text-align: center;
+    padding: 9px 10px 10px;
+    box-shadow: 0 7px 54px 0 rgba(25, 15, 15, 0.2), 0 0 14px 0 rgba(234, 234, 234, 0.28);
+    display: none;
+}
+
+.button-up:hover {
+    cursor: pointer;
+}
+
+.button-up img {
+    width: 100%;
+    display: inline-block;
+}
+
+.button-theme {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background: #222831;
+    border-radius: 50%;
+    z-index: 100;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 7px 54px 0 rgba(25, 15, 15, 0.2), 0 0 14px 0 rgba(234, 234, 234, 0.28);
+}
+
+.button-theme:hover {
+    cursor: pointer;
+}
+
+.button-theme img {
+    width: 100%;
+    display: inline-block;
+}
+
+/*MENU*/
+.container-table .container-cell.cell-menu .block-menu {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #222831, #EE382F);
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+
+.cell-menu .menu {
+    width: 1300px;
+    display: inline-block;
+    text-align: right;
+}
+
+.cell-menu .menu .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    float: left;
+    padding: 18px;
+}
+
+.cell-menu .menu .title span {
+    color: #ffe51e;
+}
+
+.cell-menu .menu ul {
+    display: inline-block;
+}
+
+.cell-menu .menu ul li {
+    display: inline-block;
+}
+
+.cell-menu .menu ul li a {
+    color: white;
+    display: inline-block;
+    padding: 5px 14px;
+    font-size: 20px;
+}
+
+.cell-menu .menu ul li a:hover {
+    color: #ffe51e;
+    transition: all 1s ease;
+}
+
 /*BODY*/
 /*status-quote*/
 .status-quote {
@@ -90,6 +213,7 @@ a {
     margin-bottom: 50px;
     padding: 0 50px;
 }
+
 .status-quote .autor {
     font-size: 17px;
     color: white;
@@ -99,16 +223,19 @@ a {
     padding: 10px;
     font-weight: bold;
 }
+
 .status-quote span {
     color: #EE382F;
     font-weight: bold;
 }
+
 .status-quote img:first-child {
     position: absolute;
     top: -26px;
     width: 75px;
     left: 17px;
 }
+
 .status-quote img:last-child {
     position: absolute;
     width: 75px;
@@ -124,6 +251,7 @@ a {
     font-size: 0;
     margin-top: 100px;
 }
+
 .banner .image-block {
     width: 100%;
     height: 600px;
@@ -132,6 +260,7 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .banner .data-block {
     background: white;
     position: absolute;
@@ -142,6 +271,7 @@ a {
     opacity: 0.9;
     text-align: right;
 }
+
 .banner .data-block .cat {
     color: #808080;
     text-transform: uppercase;
@@ -226,12 +356,14 @@ a {
     font-size: 0;
     margin: 80px 0 0;
 }
+
 .pager-style li {
     display: inline-block;
     font-size: 16px;
     color: black;
     margin: 7px;
 }
+
 .pager-style li a {
     display: inline-block;
     width: 49px;
@@ -243,6 +375,7 @@ a {
     font-weight: bold;
     border: 2px solid #222831;
 }
+
 .pager-style li.active {
     display: inline-block;
     width: 49px;
@@ -253,11 +386,13 @@ a {
     border-radius: 100px;
     font-weight: bold;
 }
+
 .pager-style li a:hover {
     background: white;
     color: black;
     border: 2px solid #222831;
 }
+
 /*BODY*/
 
 /*FOOTER*/
@@ -306,6 +441,7 @@ a {
 .footer .menu ul {
     padding-left: 23px;
 }
+
 .footer .menu li {
     margin-bottom: 17px;
     font-size: 18px;
