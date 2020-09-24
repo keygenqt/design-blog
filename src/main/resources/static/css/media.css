@@ -124,7 +124,6 @@
 
     .footer .top-news {
         width: 70%;
-        padding-right: 0;
     }
 }
 
@@ -162,24 +161,36 @@
     }
 
     .footer .info {
-        width: 75%;
+        width: 73%;
     }
 
     .footer .menu {
-        width: 25%;
+        width: 27%;
         display: inline-block;
+    }
+    .button-up {
+        width: 30px;
+        height: 30px;
+        padding: 4px 8px 5px;
+        right: 15px;
+        bottom: 75px;
+    }
+    .button-theme {
+        width: 30px;
+        height: 30px;
+        padding: 5px 8px 5px;
+        right: 15px;
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 680px) {
     .footer .menu {
         display: none;
     }
-
     .footer .info {
         width: 100%;
-        padding: 0;
         margin-left: 0;
+        padding-right: 30px;
     }
     .status-quote .text {
         font-size: 16px;

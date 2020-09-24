@@ -78,6 +78,7 @@ body.black-theme .container-table .container-cell.cell-body {
     background: black;
 }
 
+body.black-theme .banner .data-block .cat,
 body.black-theme .list-posts .list-item .data-block .cat {
     color: #a9a9a9;
 }
@@ -96,11 +97,17 @@ body.black-theme .button-up, body.black-theme .button-theme {
 body.black-theme .pager-style li.active {
     color: white;
 }
+body.black-theme .banner .data-block .title {
+    color: #ffffff;
+}
+body.black-theme .banner .data-block {
+    background: #000000e0;
+}
 
 /*BUTTONS*/
 .button-up {
     position: fixed;
-    right: 30px;
+    right: 10px;
     bottom: 80px;
     width: 40px;
     height: 40px;
@@ -125,7 +132,7 @@ body.black-theme .pager-style li.active {
 .button-theme {
     display: block;
     position: fixed;
-    right: 30px;
+    right: 10px;
     bottom: 30px;
     width: 40px;
     height: 40px;
