@@ -37,7 +37,12 @@ body {
 }
 
 a {
-    color: #2cb6e9;
+    color: white;
+}
+
+a:hover {
+    color: #ffe51e;
+    transition: all 1s ease;
 }
 
 .center {
@@ -53,7 +58,7 @@ a {
 }
 
 body {
-    background: #191919;
+    background: #222831;
 }
 
 .error .oops {
@@ -62,20 +67,20 @@ body {
 }
 
 .error .code {
-    color: #5a595a;
     font-size: 155px;
     font-weight: bold;
+    color: #EE382F;
 }
 
 .error .text {
-    color: #8c8998;
+    color: white;
     font-size: 30px;
 }
 
 .error .line {
     margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #8c8998;
+    border-bottom: 1px solid white;
 }
 
 .error .info {

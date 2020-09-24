@@ -13,110 +13,83 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */-->
-<!DOCTYPE HTML>
+<div xmlns:th="http://www.thymeleaf.org" th:fragment="index">
+    <div class="container body">
 
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments/header :: header"></head>
-<body>
-
-<div class="container-table">
-    <div class="container-row">
-        <div th:replace="fragments/menu :: menu"></div>
-    </div>
-    <div class="container-row">
-        <div class="container-cell cell-body">
-            <div class="container body">
-
-                <div class="status-quote">
-                    <div class="page" style="position: relative">
-                        <img th:src="@{/images/quote.png}"/>
-                        <div class="text">
-                            The Linux philosophy is 'Laugh in the face of danger'.
-                            Oops. Wrong One. <span>'Do it yourself'</span>. Yes, that's it.
-                        </div>
-                        <div class="autor">Linus Torvalds</div>
-                        <img th:src="@{/images/quote.png}"/>
-                    </div>
+        <div class="status-quote">
+            <div class="page" style="position: relative">
+                <img th:src="@{/images/quote.png}"/>
+                <div class="text">
+                    The Linux philosophy is 'Laugh in the face of danger'.
+                    Oops. Wrong One. <span>'Do it yourself'</span>. Yes, that's it.
                 </div>
-
-                <div class="page">
-
-                    <div class="banner">
-                        <div class="image-block" th:style="'background-image:url(' + @{/images/7.jpg} + ');'"></div>
-                        <div class="data-block">
-                            <div class="cat">cute Category</div>
-                            <div class="title">First title. Here could your title.</div>
-                            <div class="date">10/22/2020</div>
-                        </div>
-                    </div>
-
-                    <ul class="list-posts">
-                        <li class="list-item">
-                            <div class="image-block" th:style="'background-image:url(' + @{/images/2.jpg} + ');'"></div>
-                            <div class="data-block">
-                                <div class="cat">Nice Category</div>
-                                <div class="title">This heading should be slightly longer than the first.</div>
-                                <div class="short-desc">
-                                    Here we will write the text. The text will be for example, so we will write anything. Anything: this is an example
-                                    of a theme for an application that does not yet exist, but soon it will be sure.
-                                </div>
-                                <div class="date">09/21/2020</div>
-                            </div>
-                        </li>
-                        <li class="list-item">
-                            <div class="image-block" th:style="'background-image:url(' + @{/images/3.jpg} + ');'"></div>
-                            <div class="data-block">
-                                <div class="cat">Best Category</div>
-                                <div class="title">Third title. Still no idea what will be written here. But its length must be greater than the
-                                    first.
-                                </div>
-                                <div class="short-desc">
-                                    And you would like yourself a blog in 5 minutes. I think everyone just dreams of simplicity. Someday, everyone
-                                    will have their own blog and they won't have to learn bulky frameworks and website builders.
-                                </div>
-                                <div class="date">08/11/2020</div>
-                            </div>
-                        </li>
-                        <li class="list-item">
-                            <div class="image-block" th:style="'background-image:url(' + @{/images/4.jpg} + ');'"></div>
-                            <div class="data-block">
-                                <div class="cat">Cool Category</div>
-                                <div class="title">It's short title.</div>
-                                <div class="short-desc">
-                                    I will write for myself and share with others. "Do it yourself" as Linus Torvalds said. So let's take it and do
-                                    it. If you have a desire, join us.
-                                </div>
-                                <div class="date">07/12/2020</div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <ul class="pager-style">
-                        <li><a href="#">&lt;</a></li>
-                        <li class="active"><span>1</span></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&gt;</a></li>
-                    </ul>
-                </div>
-
+                <div class="autor">Linus Torvalds</div>
+                <img th:src="@{/images/quote.png}"/>
             </div>
         </div>
+
+        <div class="page">
+
+            <div class="banner">
+                <div class="image-block" th:style="'background-image:url(' + @{/images/7.jpg} + ');'"></div>
+                <div class="data-block">
+                    <div class="cat">cute Category</div>
+                    <div class="title">First title. Here could your title.</div>
+                    <div class="date">10/22/2020</div>
+                </div>
+            </div>
+
+            <ul class="list-posts">
+                <li class="list-item">
+                    <div class="image-block" th:style="'background-image:url(' + @{/images/2.jpg} + ');'"></div>
+                    <div class="data-block">
+                        <div class="cat">Nice Category</div>
+                        <div class="title">This heading should be slightly longer than the first.</div>
+                        <div class="short-desc">
+                            Here we will write the text. The text will be for example, so we will write anything. Anything: this is an example
+                            of a theme for an application that does not yet exist, but soon it will be sure.
+                        </div>
+                        <div class="date">09/21/2020</div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="image-block" th:style="'background-image:url(' + @{/images/3.jpg} + ');'"></div>
+                    <div class="data-block">
+                        <div class="cat">Best Category</div>
+                        <div class="title">Third title. Still no idea what will be written here. But its length must be greater than the
+                            first.
+                        </div>
+                        <div class="short-desc">
+                            And you would like yourself a blog in 5 minutes. I think everyone just dreams of simplicity. Someday, everyone
+                            will have their own blog and they won't have to learn bulky frameworks and website builders.
+                        </div>
+                        <div class="date">08/11/2020</div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="image-block" th:style="'background-image:url(' + @{/images/4.jpg} + ');'"></div>
+                    <div class="data-block">
+                        <div class="cat">Cool Category</div>
+                        <div class="title">It's short title.</div>
+                        <div class="short-desc">
+                            I will write for myself and share with others. "Do it yourself" as Linus Torvalds said. So let's take it and do
+                            it. If you have a desire, join us.
+                        </div>
+                        <div class="date">07/12/2020</div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="pager-style">
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+            </ul>
+        </div>
+
     </div>
-    <div class="container-row">
-        <div th:replace="fragments/footer :: footer"></div>
-    </div>
 </div>
-
-<div class="button-up">
-    <img src="/images/index/arrow_up.png" alt="Up"/>
-</div>
-
-<div class="button-theme">
-    <img src="/images/index/theme.png" alt="Theme"/>
-</div>
-
-</body>
-</html>

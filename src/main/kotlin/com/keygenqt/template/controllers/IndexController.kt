@@ -25,6 +25,28 @@ class IndexController {
     @GetMapping("/")
     fun main(model: Model): String {
         model.addAttribute("appName", "Unit Theme 1")
-        return "layouts/index"
+        model.addAttribute("page", "index")
+        return "fragments/layout"
+    }
+
+    @GetMapping("/articles")
+    fun articles(model: Model): String {
+        model.addAttribute("appName", "Unit Theme 1 | Articles")
+        model.addAttribute("page", "articles")
+        return "fragments/layout"
+    }
+
+    @GetMapping("/contact")
+    fun contact(model: Model): String {
+        model.addAttribute("appName", "Unit Theme 1 | Contact")
+        model.addAttribute("page", "contact")
+        return "fragments/layout"
+    }
+
+    @GetMapping("/team")
+    fun team(model: Model): String {
+        model.addAttribute("appName", "Unit Theme 1 | Team")
+        model.addAttribute("page", "team")
+        return "fragments/layout"
     }
 }

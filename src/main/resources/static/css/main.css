@@ -64,7 +64,6 @@ a {
 
 .container {
     width: 100%;
-    margin-bottom: 100px;
     display: inline-block;
 }
 
@@ -170,16 +169,16 @@ body.black-theme .banner .data-block {
     text-align: right;
 }
 
-.cell-menu .menu .title {
+.cell-menu .menu .title a {
     font-size: 24px;
     font-weight: bold;
-    color: white;
     display: inline-block;
     float: left;
     padding: 18px;
+    color: white;
 }
 
-.cell-menu .menu .title span {
+.cell-menu .menu .title a span {
     color: #ffe51e;
 }
 
@@ -361,7 +360,7 @@ body.black-theme .banner .data-block {
 .pager-style {
     padding: 0;
     font-size: 0;
-    margin: 80px 0 0;
+    margin: 80px 0 80px;
 }
 
 .pager-style li {
