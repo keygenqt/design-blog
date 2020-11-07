@@ -1,4 +1,4 @@
-Theme blog template
+Blog template
 ===================
 
 [You can see here](https://unite-theme.keygenqt.com/)
